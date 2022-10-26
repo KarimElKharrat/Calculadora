@@ -62,7 +62,7 @@ public class Calculadora {
 	
 	/**
 	 * Indica a la calculadora que realice la operaci�n indicada. 
-	 * @param operador Operaci�n a realizar; usar una constante: IGUAL, SUMAR, RESTAR, MULTIPLCIAR, DIVIDIR.
+	 * @param operador Operación a realizar; usar una constante: IGUAL, SUMAR, RESTAR, MULTIPLCIAR, DIVIDIR.
 	 */
 	public void operar(char operador) {
 		nuevoOperando = true;

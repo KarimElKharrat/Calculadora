@@ -14,7 +14,7 @@ import javafx.scene.layout.GridPane;
 
 public class CalculadoraController implements Initializable {
 
-	// model
+	// model y logica de negocio
 
 	private Calculadora calculadora;
 	
@@ -27,8 +27,7 @@ public class CalculadoraController implements Initializable {
 	private TextField resultadoText;
 
 	@FXML
-	private Button unoButton, dosButton, tresButton, cuatroButton, cincoButton, seisButton, sieteButton, ochoButton,
-			nueveButton, ceroButton;
+	private Button unoButton, dosButton, tresButton, cuatroButton, cincoButton, seisButton, sieteButton, ochoButton, nueveButton, ceroButton;
 	@FXML
 	private Button sumaButton, restaButton, multiplicacionButton, divisionButton;
 	@FXML
