@@ -20,7 +20,6 @@ public class Calculadora {
 	private Double operando;
 	private char operador;
 	private Boolean nuevoOperando;
-	//TODO crear pantalla con property
 	private StringProperty pantalla = new SimpleStringProperty();
 	
 	public Calculadora() {
